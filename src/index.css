@@ -1,0 +1,42 @@
+
+/* Css que se aplica a toda la app */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* aqui cree la grilla básica */
+.appGrid {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+/* Css para el Navbar */
+.custom-navbar {
+  background: linear-gradient(135deg, #f7b733, #fc4a1a);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.btn1:hover {
+  border: 1px solid #fc4a1a !important;
+  color: red !important;
+  background-color: rgba(237, 193, 48, 0.521);
+  border-radius: 5px;
+}
+
+.btn2 {
+  border: 3px solid rgba(237, 193, 48, 0.521) !important;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.btn2:hover {
+  background-color: rgba(234, 220, 18, 0.619);
+
+}
