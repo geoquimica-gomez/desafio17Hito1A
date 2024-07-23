@@ -17,10 +17,20 @@ body {
   background: linear-gradient(135deg, #f7b733, #fc4a1a);
 }
 
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  50% {
+      transform: rotate(50deg);
+  }
+}
+
 .logo {
   width: 40px;
   height: 40px;
   margin-right: 8px;
+  animation: spin 5s linear infinite;
 }
 
 .btn1:hover {
@@ -28,6 +38,7 @@ body {
   color: red !important;
   background-color: rgba(237, 193, 48, 0.521);
   border-radius: 5px;
+  font-size: 1.1rem;
 }
 
 .btn2 {
@@ -37,6 +48,8 @@ body {
 }
 
 .btn2:hover {
+  border: 5px solid rgba(249, 203, 50, 0.571) !important;
   background-color: rgba(234, 220, 18, 0.619);
-
+  font-size: 1.1rem;
 }
+
