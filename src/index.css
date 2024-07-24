@@ -53,3 +53,9 @@ body {
   font-size: 1.1rem;
 }
 
+/* Css para el footer */
+
+.custom-footer {
+  background: linear-gradient(135deg, #f7b633b3, #fc4b1ab0);
+  border-top: 2px solid #fc4a1a;
+}
