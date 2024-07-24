@@ -15,6 +15,8 @@ body {
 /* Css para el Navbar */
 .custom-navbar {
   background: linear-gradient(135deg, #f7b733, #fc4a1a);
+  border-bottom: 5px solid;
+  border-image: linear-gradient(45deg, #fc4a1a, #f7b733) 1;
 }
 
 @keyframes spin {
@@ -56,6 +58,6 @@ body {
 /* Css para el footer */
 
 .custom-footer {
-  background: linear-gradient(135deg, #f7b633b3, #fc4b1ab0);
-  border-top: 2px solid #fc4a1a;
+  border-top: 5px solid;
+  border-image: linear-gradient(45deg, #fc4a1a, #f7b733) 1;
 }
