@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/desafio17Hito1",
+  base: "/desafio17Hito1A",
   plugins: [react()],
 })
